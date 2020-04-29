@@ -93,7 +93,7 @@ controllers.update = async (req,res) => {
     .catch(error => {
       return error;
     }) 
-    res.json({success:true, data:data, message:"Berhasil Di Update"});
+    res.json({success:true, data:data, message:"Berhasil Di Update di database"});
   }
 
   controllers.delete = async (req, res) => {
