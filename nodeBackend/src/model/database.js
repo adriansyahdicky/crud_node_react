@@ -1,12 +1,12 @@
 var Sequelize = require('sequelize');
 
 const sequelize = new Sequelize(
-    'node', //database
-    'root', //username
+    'golang-test', //database
+    'postgres', //username
     'root', //password
     {
         host: 'localhost',
-        dialect: 'mysql'
+        dialect: 'postgres'
     }
 );
 
